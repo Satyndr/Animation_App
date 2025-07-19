@@ -1,6 +1,7 @@
 import { Href, Link } from "expo-router";
 import { StyleSheet, Text, View } from "react-native";
 import Animated, { FadeIn } from "react-native-reanimated";
+import ChatEmoji from "./Components/ChatEmoji";
 
 const Links = [
   {
@@ -37,7 +38,7 @@ export default function Index() {
 }
 
 // export default function Index() {
-//   return <></>;
+//   return <ChatEmoji />;
 // }
 
 const styles = StyleSheet.create({

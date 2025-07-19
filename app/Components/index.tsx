@@ -25,6 +25,10 @@ const Links = [
     text: "Insta Live Emoji",
   },
   {
+    link: "/Components/ChatEmoji",
+    text: "Chat Emoji",
+  },
+  {
     link: "/Components/RatingStars",
     text: "Rating Stars",
   },
